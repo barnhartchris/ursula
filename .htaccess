@@ -1,0 +1,8 @@
+# Only allow external anonymous access to jarvis-index.php
+<Files main.php>
+    AuthType none
+    Satisfy any
+
+    Order Allow,Deny
+    Allow from all
+</Files>
